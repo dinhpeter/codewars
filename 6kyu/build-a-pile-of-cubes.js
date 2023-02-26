@@ -12,3 +12,19 @@ findNb(1071225) --> 45
 findNb(91716553919377) --> -1
 */
 
+function findNb(m) {
+    let x = 0
+    let n = 0
+  
+    while(x < m) {
+      n += 1
+      x += n**3
+    }
+    
+    if(x == m){
+      return n
+    }else{
+      return -1
+    }
+  }
+  
