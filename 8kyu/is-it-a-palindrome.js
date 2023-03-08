@@ -16,3 +16,27 @@ function isPalindrome(x) {
 }
 
 */
+/*
+const isPalindrome = word => word === word.split('').reverse().join('')
+
+//function word is palindrome
+
+//word -> str, no empty, no !, no nums, no funny biz, no caps, 1 word
+//return true || false
+
+// racecar -> true
+// bob -> true
+// tacos -> false
+
+function isPalindrome(word){
+  //word -> reverse that word - split reverse join
+
+  //revWord === word ? true : false
+
+  return word.split('').reverse().join('') === word ? true : false
+}
+
+console.log(isPalindrome('racecar'), 'true')
+console.log(isPalindrome('bob'), 'true')
+console.log(isPalindrome('tacos'), 'false')
+*/
