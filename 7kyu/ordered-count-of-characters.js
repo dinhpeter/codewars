@@ -31,3 +31,8 @@ const orderedCount = function (text) {
     }
     return ans
   }
+
+  /*
+  const orderedCount = s =>
+  Array.from(s.split('').reduce((m, k) => m.set(k, m.has(k) ? m.get(k) + 1 : 1), new Map()));
+  */
